@@ -16,6 +16,7 @@ header {
 section {
     background-color: lightseagreen;
     width:70%;
+    padding: 5px;
 }
 aside {
     background-color: lightpink;
@@ -104,6 +105,42 @@ h3{
     width:100%;
     margin-left: 0%;
     vertical-align: middle; 
-
 }
 
+.commentstitle {
+    display: flex;
+    padding: 3px;
+    flex-direction: row;
+    width:50%;
+    margin-left: 0%;
+    vertical-align: middle; 
+    justify-content: space-between;
+}
+
+.usercomments {
+    display: flex;
+    padding: 3px;
+    flex-direction: row;
+    width:100%;
+    margin-left: 0%;
+    vertical-align: middle; 
+}
+
+.usercomments img {
+    border: 1px solid white;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.usercomments p {
+    padding-top: 17px;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.sort {
+    display: flex;
+    flex-direction: row;
+}
