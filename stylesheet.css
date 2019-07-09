@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+  }
+  
+header {
+    background-color: lightcoral;
+
+
+}
+section {
+    background-color: lightseagreen;
+
+}
+aside {
+    background-color: lightpink;
+}
+
+.nav {
+    display: flex;  
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+.nav-right {
+    display: inline-flex;
+}
+
+#user {
+    border-radius: 50%;
+    border: 3px solid white;
+    box-sizing: border-box;
+    size:50%;
+}
