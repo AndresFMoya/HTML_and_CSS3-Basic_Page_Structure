@@ -22,18 +22,36 @@ aside {
 }
 
 .nav {
-    display: flex;  
+    display:flex;
+    flex-direction: row;
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
-}
-.nav-right {
-    display: inline-flex;
+    align-items: center;
+
 }
 
-#user {
+.nav .nav-right {
+    display:flex;
+    position: absolute; right: 1px; top:1px;
+}
+
+.nav-center {
+    position: absolute; left: 30%; top:1px;
+    align-items:top;
+}
+.nav-search {
+    width:400px;
+    height:38px;
+    position: absolute; top: 5px;
+}
+
+.nav-item-search-btn {
+    position: absolute; top: 5px; left: 400px;
+}
+
+#user img{
+    border: 1px solid white;
+    width: 50%;
     border-radius: 50%;
-    border: 3px solid white;
-    box-sizing: border-box;
-    size:50%;
 }
