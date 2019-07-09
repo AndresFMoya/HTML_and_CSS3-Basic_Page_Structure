@@ -9,14 +9,15 @@
   }
   
 header {
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
 
 
 }
 section {
-    background-color: lightseagreen;
+    /* background-color: lightseagreen; */
     width:70%;
     padding: 5px;
+    margin-left: 3%;
 }
 aside {
     background-color: lightpink;
@@ -137,10 +138,30 @@ h3{
 }
 
 .description {
-    font-size: 14px;
+    font-size: 1rem;
+    width:70%;
+    margin-left: 7%;
+    text-decoration: none;
+    line-height: 1.5;
 }
 
 .sort {
     display: flex;
     flex-direction: row;
+}
+
+.usercomments input {
+    border:none;
+    border-bottom: 2px solid #606060;
+    width: 75%;
+    font-size: 1.2rem;
+    color:#606060 ;
+
+}
+.commentstitle {
+    margin-top: 20px;    
+
+}
+.sort img {
+    margin-top:-5px;
 }
