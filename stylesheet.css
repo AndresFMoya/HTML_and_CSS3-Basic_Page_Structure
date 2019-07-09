@@ -15,6 +15,7 @@ header {
 }
 section {
     background-color: lightseagreen;
+    width:70%;
 
 }
 aside {
@@ -39,6 +40,8 @@ aside {
 .nav-center {
     position: absolute; left: 30%; top:1px;
     align-items:top;
+    
+
 }
 .nav-search {
     width:400px;
