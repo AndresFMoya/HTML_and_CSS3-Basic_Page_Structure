@@ -18,9 +18,7 @@ section {
     width:65%;
     padding: 5px;
     margin-left: 3%;
-}
-aside {
-    background-color: lightpink;
+    margin-top: 10px;
 }
 
 h3{
@@ -184,4 +182,46 @@ h3{
 aside {
     width: 30%;
     position: absolute; top:0 ; right: 0;
+    margin-top: 55px;
+}
+
+.nextvideos {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.nextvideos img {
+    width: 168px;
+    height: 94px;
+    padding-right:3px;
+}
+
+.nextvideos .text h5 {
+    font-size: 1.2rem;
+    color: #0d0d0d
+}
+
+.nextvideos .text h6 {
+    font-size: 0.9rem;
+    color:#606060
+}
+
+.nextvideos .text p {
+    font-size: 0.9rem;
+    color:#606060
+}
+
+.upnext {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:80%;
+}
+
+.upnext h6 {
+    font-size: 1.3rem;
+    color:#0D0D0D;
+    font-weight: normal;
+    padding-top: 4px;
 }
